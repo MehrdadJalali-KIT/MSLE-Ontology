@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mehrdad/ontologies/2021/5/untitled-ontology-39"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mehrdad/ontologies/2021/5/untitled-ontology-39">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#E-Beam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E-Beam_Beam_Current"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E-Beam_Emission_Sources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E-Beam_Field_of_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E-Beam_High_Tension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electron_Ion_beam_microscopy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#I-Beam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LAB6_TE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microscopy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Beam_current"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Chamber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Electrical_lead-through"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Emission_Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Field_of_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Free_ports_of_chamber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_High_tension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Load_Lock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_OE_Cold_trap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_OE_Detectors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_OE_In-situ-equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_OE_Manipulators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_OE_Vacuum_transfer_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Optional_Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEM_Vacuum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sample_Mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sample_Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Schottky_FE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tungsten_filament_TE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tungsten_tip_FE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cross-Beam_FIB/SEM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIB/SEM_General_instrument_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIb/SEM_Optional_Equipment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Has_Size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Has_Value"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#E-Beam"/>
+        <Class IRI="#Cross-Beam_FIB/SEM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E-Beam_Beam_Current"/>
+        <Class IRI="#E-Beam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E-Beam_Emission_Sources"/>
+        <Class IRI="#E-Beam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E-Beam_Field_of_view"/>
+        <Class IRI="#E-Beam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E-Beam_High_Tension"/>
+        <Class IRI="#E-Beam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electron_Ion_beam_microscopy"/>
+        <Class IRI="#Microscopy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#I-Beam"/>
+        <Class IRI="#Cross-Beam_FIB/SEM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LAB6_TE"/>
+        <Class IRI="#SEM_Emission_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Beam_current"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Chamber"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Electrical_lead-through"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Emission_Source"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Field_of_view"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Free_ports_of_chamber"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_High_tension"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Load_Lock"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_OE_Cold_trap"/>
+        <Class IRI="#SEM_Optional_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_OE_Detectors"/>
+        <Class IRI="#SEM_Optional_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_OE_In-situ-equipment"/>
+        <Class IRI="#SEM_Optional_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_OE_Manipulators"/>
+        <Class IRI="#SEM_Optional_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_OE_Vacuum_transfer_system"/>
+        <Class IRI="#SEM_Optional_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Optional_Equipment"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Sample"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Stage"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEM_Vacuum"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sample_Mass"/>
+        <Class IRI="#SEM_Sample"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sample_Size"/>
+        <Class IRI="#SEM_Sample"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scanning_electron_microscope"/>
+        <Class IRI="#Electron_Ion_beam_microscopy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Schottky_FE"/>
+        <Class IRI="#SEM_Emission_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tungsten_filament_TE"/>
+        <Class IRI="#SEM_Emission_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tungsten_tip_FE"/>
+        <Class IRI="#SEM_Emission_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cross-Beam_FIB/SEM"/>
+        <Class IRI="#Electron_Ion_beam_microscopy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FIB/SEM_General_instrument_specification"/>
+        <Class IRI="#Cross-Beam_FIB/SEM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FIb/SEM_Optional_Equipment"/>
+        <Class IRI="#Cross-Beam_FIB/SEM"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#E-Beam"/>
+        <Class IRI="#I-Beam"/>
+        <Class IRI="#FIB/SEM_General_instrument_specification"/>
+        <Class IRI="#FIb/SEM_Optional_Equipment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#E-Beam_Beam_Current"/>
+        <Class IRI="#E-Beam_Emission_Sources"/>
+        <Class IRI="#E-Beam_Field_of_view"/>
+        <Class IRI="#E-Beam_High_Tension"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LAB6_TE"/>
+        <Class IRI="#Schottky_FE"/>
+        <Class IRI="#Tungsten_filament_TE"/>
+        <Class IRI="#Tungsten_tip_FE"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SEM_Beam_current"/>
+        <Class IRI="#SEM_Chamber"/>
+        <Class IRI="#SEM_Electrical_lead-through"/>
+        <Class IRI="#SEM_Emission_Source"/>
+        <Class IRI="#SEM_Field_of_view"/>
+        <Class IRI="#SEM_Free_ports_of_chamber"/>
+        <Class IRI="#SEM_High_tension"/>
+        <Class IRI="#SEM_Load_Lock"/>
+        <Class IRI="#SEM_Sample"/>
+        <Class IRI="#SEM_Stage"/>
+        <Class IRI="#SEM_Vacuum"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SEM_OE_Cold_trap"/>
+        <Class IRI="#SEM_OE_Detectors"/>
+        <Class IRI="#SEM_OE_In-situ-equipment"/>
+        <Class IRI="#SEM_OE_Manipulators"/>
+        <Class IRI="#SEM_OE_Vacuum_transfer_system"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SEM_Optional_Equipment"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SEM_Optional_Equipment"/>
+        <Class IRI="#Scanning_electron_microscope"/>
+        <Class IRI="#Cross-Beam_FIB/SEM"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sample_Mass"/>
+        <Class IRI="#Sample_Size"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
